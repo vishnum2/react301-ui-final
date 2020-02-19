@@ -1,0 +1,75 @@
+{
+  "name": "yoyogift",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "@sendgrid/mail": "^6.4.0",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.1.2",
+    "emailjs-com": "^2.3.2",
+    "firebase": "^6.0.2",
+    "font-awesome": "^4.7.0",
+    "formik": "^1.5.7",
+    "history": "^4.9.0",
+    "lodash": "^4.17.11",
+    "loggly-jslogger": "^2.2.2",
+    "material-ui-search-bar": "^0.4.2",
+    "react": "^16.8.6",
+    "react-app-polyfill": "^1.0.1",
+    "react-dom": "^16.8.6",
+    "react-draggable": "^3.3.0",
+    "react-google-login": "^5.1.1",
+    "react-loadable": "^5.5.0",
+    "react-localize-redux": "^3.5.3",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "3.0.1",
+    "react-star-rating-component": "^1.4.1",
+    "react-virtualized": "^9.21.1",
+    "redux": "^4.0.1",
+    "redux-form": "^8.2.0",
+    "redux-mock-store": "^1.5.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.18.3",
+    "react-app-rewire-workbox": "^2.0.1",
+    "react-app-rewired": "^2.1.5",
+    "react-test-renderer": "^16.4.2"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!**/node_modules/**"
+    ]
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "test-coverage": "react-scripts test --env=jsdom --coverage",
+    "lint": "eslint src/modules/**/*.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

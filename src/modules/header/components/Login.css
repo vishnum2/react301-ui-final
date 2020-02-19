@@ -1,0 +1,45 @@
+.admin-wrapper{
+    background-color: #282c34;
+    /* min-height: 100vh;
+    min-width: 100vw; */
+    /* height: 90vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* font-size: calc(10px + 3vmin); */
+    color: white;
+}
+
+.inner-jumbotron{
+    border-radius: "10px";
+    background-color: "grey";
+    height: "50vh";
+    width: "40vw";
+    display: "flex";
+    flex-direction: "column";
+    justify-content: "Center";
+    padding: "2vh"
+}
+
+.admin-form-elements{
+    /* flex: 1; */
+    margin: 2vh !important;
+    border: white;
+    /* width: 20vw; */
+}
+
+.admin-google-login-button{
+    background-color: #61dafb;
+    padding: 2vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-google-login-button:hover{
+   opacity: 0.8;
+}
+
+/* .MuiFormLabel-root{
+    color: white !important;
+} */

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`logged in check should render on login 1`] = `ShallowWrapper {}`;
+
+exports[`snapshot should do snapshot test 1`] = `ShallowWrapper {}`;

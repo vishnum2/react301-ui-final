@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test the actions of user should fetch received cards 1`] = `Array []`;
+
+exports[`test the actions of user should fetch received cards 2`] = `Array []`;
